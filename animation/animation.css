@@ -1,0 +1,74 @@
+.roledown{
+    opacity: 0;
+    transform: translateY(5rem);
+    transition: all 1s ease-in-out;
+}
+
+.roleup{
+    opacity: 0;
+    transition: transform 1.5s ease-in-out;
+}
+
+.roledown.visible, .roleup.visible{
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.rleft{
+    opacity: 0;
+    transform: translateX(-5rem);
+    transition: all 1s ease-in-out;
+}
+
+.rright{
+    opacity: 0;
+    transform: translateX(5rem);
+    transition: all 1s ease-in-out;
+}
+
+.rleft.visible, .rright.visible{
+    opacity: 1;
+    transform: translateX(0);
+}
+
+.role-up{
+    opacity: 0;
+    transform: translateY(-5rem);
+    transition: all 1s ease-in-out;
+}
+
+.role-up.visible{
+    opacity: 1;
+    transform: translateY(0);
+}
+
+
+@media (max-width: 426px) {
+    .rleft{
+        transform: translateY(2rem);
+    }
+    .rright{
+        transform: translateY(2rem);
+    }
+    .rleft.visible, .rright.visible{
+        transform: translateY(0);
+    }
+    .roledown{
+        transform: translateZ(-1rem);
+    }
+    .roledown.visible{
+        transform: translateZ(0);
+    }
+}
+
+@media (max-width: 769px) {
+    .rleft{
+        transform: translateY(-2rem);
+    }
+    .rright{
+        transform: translateY(2rem);
+    }
+    .roledown{
+        transform: translateZ(-1rem);
+    }
+}

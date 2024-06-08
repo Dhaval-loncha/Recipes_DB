@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../animation/animation.css">
+    <link rel="stylesheet" href="recipe.css">
+    <link rel="stylesheet" href="../mquery.css">
+    <link rel="icon" href="../favicon.svg">
+    <title>Recipe Details</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <h1 class="roleup"><span>Recipes</span> DB</h1>
+            <button id="back" class="roleup">Back to Home</button>
+        </nav>
+    </header>
+    <div class="recipe-container">
+        <section class="recipe-image role-up">
+            <div id="r-img">
+                <!-- <img src="images/bg1.jpg" alt=""> -->
+            </div>
+        </section>
+        <section class="basic-info">
+            <div class="info rleft">
+                <span id="u-date">June 3, 2024</span>
+                <h2 id="r-name">Recipe Name</h2>
+                <p id="r-desc">Description : Lorem ipsum dolor sit, amet consectetur adipisicing elit.Ullam distinctio fuga sapiente.</p>
+                <div class="r-duration roledown">
+                    <h6>Prep: <span id="r-prep"></span></h6>
+                    <h6>Cook: <span id="r-cook"></span></h6>
+                    <h6>Servings: <span id="r-yield"></span></h6>
+                </div>
+            </div>
+            <div class="nutrition rright">
+                <h3><span>Nutrition</span></h3>
+                <div class="nutrition-facts">
+                    <div>
+                        <p>Calories</p>
+                        <p id="r-calories">100</p>
+                    </div>
+                    <div>
+                        <p>Carbohydrates</p>
+                        <p id="r-carbs">100</p>
+                    </div>
+                    <div>
+                        <p>Protein</p>
+                        <p id="r-protein">100</p>
+                    </div>
+                    <div>
+                        <p>Fat</p>
+                        <p id="r-fat">100</p>
+                    </div>
+                    <div>
+                        <p>Fiber</p>
+                        <p id="r-fiber">100</p>
+                    </div>
+                    <div>
+                        <p>Sugar</p>
+                        <p id="r-sugar">100</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="r-details">
+            <div class="steps rleft">
+                <h3><span>Instructions</span></h3>
+                <div>
+                    <h4>01.</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga labore excepturi nesciunt pariatur aliquam est? Delectus molestias sed cupiditate doloribus assumenda libero, enim aliquid illum perferendis corporis, corrupti ipsum. Eligendi.</p>
+                </div>
+            </div>
+            <div class="ingredients rright">
+                <div>
+                    <h3><span>Ingredients</span></h3>
+                    <ol>
+                        <li>
+                            <summary>
+                                <h4>Main</h4>
+                                <details>
+                                    <ul>
+                                        <li>1</li>
+                                        <li>2</li>
+                                        <li>3</li>
+                                    </ul>
+                                </details>
+                            </summary>
+                        </li>
+                    </ol>    
+                </div>    
+                <div class="tutorial">
+                    <a><button>Tutorial Video</button></a>
+                </div>
+            </div>
+        </section>
+    </div>
+    <footer>
+        <div class="footer">
+            <form action="https://api.web3forms.com/submit" method="POST" class="rleft">
+                <input type="hidden" name="access_key" value="fb6d2ba9-62b4-45bd-bc33-a68858def1ca">
+                <h2><span>Get In Touch</span></h2>
+                <input type="email" name="email" id="email" placeholder="Enter Your Email">
+                <textarea name="message" id="message" cols="30" rows="5" placeholder="Enter Your Message"></textarea>
+                <div>
+                    <button type="submit">Submit</button>
+                </div>
+            </form>
+            <div class="social rright">
+                <p>Copyright © <span>Recipes DB</span> 2024 </p>
+                <div class="social-icons">
+                    <a href="https://mail.google.com/mail/?view=cm&fs=1&to=dhavalkloncha@gmail.com" target="_blank"><img src="../icons/email.svg" alt=""></a>
+                    <a href="https://github.com/Dhaval-loncha" target="_blank"><img src="../icons/github.svg" alt=""></a>
+                    <a href="https://www.linkedin.com/in/loncha-dhaval-989aa4287/" target="_blank"><img src="../icons/linkedin.svg" alt=""></a>
+                    <a href="https://www.instagram.com/d_h_a_v_a_l_1_9/" target="_blank"><img src="../icons/instagram.svg" alt=""></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="recipe.js"></script>
+    <script src="../animation/animation.js"></script>
+</body>
+</html>

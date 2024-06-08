@@ -1,0 +1,194 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background: #f5f5f580;
+}
+nav{
+    position: absolute;
+    top: 0;
+    display: flex;
+}
+
+nav button{
+    border: 0;
+    outline: 0;
+    padding: 0.5rem 1rem;
+    background-color: var(--primary-color);
+    color: #f5f5f5;
+    font-size: 1rem;
+    cursor: pointer;
+    margin: 1rem 0 1rem 9rem;
+    border: 1px solid var(--primary-color);
+}
+nav button:hover{
+    transition: all 0.3s ease-in-out;
+    background-color: #f5f5f5;
+    color: var(--primary-color);
+}
+.recipe-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+}
+.recipe-image{
+    height: 550px;
+    width: 1100px;
+    overflow: hidden;
+    margin: 0 auto;
+    margin-top: 7rem;
+    background: url("https://themewagon.github.io/delicious/img/bg-img/bg5.jpg") no-repeat center center/cover;
+}
+.basic-info{
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-between;
+    width: 72%;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.info span{
+    font-size: 0.9rem;
+    color: #888;
+}
+.info h2{
+    font-size: 2rem;
+}
+.r-duration{
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    margin-top: 1.5rem;
+    font-size: 1.5rem;
+    font-weight: lighter;
+    border-left: 3px solid var(--primary-color);
+    padding-left: 1rem;
+}
+.r-duration h6{
+    margin: 0.4rem 0;
+    font-weight: lighter;
+}
+.nutrition{
+    width: 37%;
+    margin-left: 4rem;
+}
+.nutrition h3{
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+.nutrition h3 span{
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid var(--primary-color);
+}
+.nutrition-facts{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+}
+.r-details{
+    display: flex;
+    width: 72%;
+    justify-content: space-between;
+    /* border: 1px solid red; */
+}
+
+.r-details h3{
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+.r-details h3 span{
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid var(--primary-color);
+}
+.steps{
+    width: 80%;
+}
+.steps div{
+    display: flex;
+    gap: 2rem;
+    /* justify-content: center; */
+    margin-bottom: 1rem;    
+}
+.steps h4{
+    font-size: 1.5rem;
+    padding: 0.3rem;
+}
+.steps p{
+    color: #888;
+    text-align: justify;
+    line-height: 1.5;
+}
+.ingredients{
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    margin-left: 4rem;
+}
+.ingredients h3{
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+.ingredients h3 span{
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid var(--primary-color);
+}
+.ingredients ol li{
+    list-style: none;
+    margin-bottom: 1rem;
+}
+.ingredients summary{
+    background-color:  #ffffff;
+    border-left: 2px solid var(--primary-color);
+    padding: 0 1rem;
+}
+.ingredients summary h4{
+    font-size: 1.2rem;
+    margin: 0.5rem 0;
+
+}
+.ingredients details{
+    color: #888;
+}
+.ingredients details ul{
+    margin-left: 1rem;
+}
+.ingredients details ul li{
+    list-style: circle;
+    margin: 0.5rem 0 ;
+}
+.tutorial{
+    margin: 1rem 0;
+}
+.tutorial button{
+    border: 0;
+    outline: 0;
+    padding: 1rem 2rem;
+    background-color: var(--primary-color);
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    border: 1px solid #f5f5f580;
+}
+.tutorial a button{
+    text-decoration: none;
+    color: #f5f5f5;
+}
+.tutorial button:hover{
+    border: 1px solid var(--primary-color);
+    background-color: #f5f5f5;
+    color: var(--primary-color);
+}
+.tutorial button:hover a{
+    color: var(--primary-color);
+}
+footer{
+    border: none;
+    background-color: #ffffff;
+}
