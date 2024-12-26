@@ -32,6 +32,6 @@ The purpose of this project is to provide users with an easy way to explore, sav
 ## 🔧 Installation:
 To run this project locally, clone the repository and open the `index.html` file in your browser:
 ```bash
-git clone https://github.com/Dhaval-Loncha/my-recipes-db.git
+git clone https://github.com/Dhaval-loncha/Recipes_DB.git
 cd my-recipes-db
 # Open index.html in your browser
